@@ -496,10 +496,10 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 767px;)
+@media screen and (max-width: 767px){
 .section .inner {
   padding: 30px 15px;
-}
+}}
 
 .section .inner {
   padding: 80px 10px;
@@ -512,19 +512,19 @@ body {
   padding: 0 10px;
 }
 
-@media screen and (max-width: 767px;)
+@media screen and (max-width: 767px){
 .section .section-title-block {
   margin-bottom: 10px;
-}
+}}
 
  .section .section-title-blok {
    text-align: center;
  }
 
- @media screen and (max-width: 767px;)
+ @media screen and (max-width: 767px){
  .section .section-title {
    font-size: 36px;
- }
+ }}
 
 .section .section-title{
   letter-spacing: -0.01em;
