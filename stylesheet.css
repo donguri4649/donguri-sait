@@ -174,27 +174,8 @@ a:hover .hover{
   color: rgb(252, 250, 250);
   }
 
-.a1:hover .hover{
-  display: inline;
-  animation-name: a1;
-  animation-duration: 0.5s;
-  animation-delay:0.01s;
-  animation-fill-mode:both;
-  color: rgb(7, 7, 7);
-  }
-
-  .a2:hover .hover{
-    display: inline;
-    animation-name: a1;
-    animation-duration: 0.5s;
-    animation-delay:0.01s;
-    animation-fill-mode:both;
-    color: rgb(7, 7, 7);
-    }
-
 .container {
   max-width: 1170px;
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -220,6 +201,7 @@ div {
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   margin: 50px 50px 0px 50px;
   letter-spacing: 10px;
+  width: 75%;
 }
 
 .header-right {
@@ -296,45 +278,20 @@ body {
 }
 
 .a1{
-  font-size: 50px;
+  font-size: 70px;
   animation-name: a1;
   animation-duration: 1s;
-  animation-delay:1.1s;
+  animation-delay:0.9s;
   animation-fill-mode:both;
   color: rgb(2, 2, 2);
   text-shadow: 5px 5px 10px rgba(252, 251, 251, 0.8);
 }
 
-@keyframes a2 {
-  0% {opacity: 0;
-    letter-spacing: 5px;}
-  10% {opacity: 0.1;
-    letter-spacing: 5px;}
-  20% {opacity: 0.15;
-    letter-spacing: 5px;}
-  30% {opacity: 0.2;
-    letter-spacing: 5px;}
-  40% {opacity: 0.25;
-    letter-spacing: 5px;}
-  50% {opacity: 0.3;
-    letter-spacing: 5px;}
-  60% {opacity: 0.4;
-    letter-spacing: 5px;}
-  70% {opacity: 0.5;
-    letter-spacing: 5px;}
-  80% {opacity: 0.6;
-    letter-spacing: 5px;}
-  90% {opacity: 0.7;
-    letter-spacing: 5px;}
-  100% {opacity: 0.8;
-    letter-spacing: 5px;}
-}
-
 .a2{
-  font-size: 45px;
-  animation-name: a2;
+  font-size: 70px;
+  animation-name: a1;
   animation-duration: 1s;
-  animation-delay:2.1s;
+  animation-delay:1.9s;
   animation-fill-mode:both;
   color: rgb(7, 7, 7);
   text-shadow: 5px 5px 10px rgba(252, 250, 250, 0.8);
@@ -392,6 +349,14 @@ body {
 
 }
 
+.name1 {
+  float: left;
+  margin: 7px 0px 0px 20px;
+  font-size: 40px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
 .namae {
   float: right;
   font-size: 30px;
@@ -433,6 +398,11 @@ body {
   padding: 20px;
   margin: 10px;
   float: right;
+}
+
+.ab1 {
+  position: relative;
+  top: 80px;
 }
 
 .SKILL-desc-title {
@@ -578,6 +548,8 @@ p {
 }
 
 
+
+
 .loading2 {
   width: 100%;
   height: 100%;
@@ -640,4 +612,3 @@ p {
     visibility:hidden
   }
 }
-
